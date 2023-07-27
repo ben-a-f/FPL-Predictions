@@ -1,7 +1,7 @@
 ### FANTASY PREMIER LEAGUE POINTS PREDICTIONS ###
 This project is a work in progress!
 
-The aim is to create a neural network model that predicts the total points a player will earn in the next FPL season. Due to the amount of data that will be required, the data storage and model development will use Google Cloud platform services.
+The aim is to create a neural network model that predicts the total points a player will earn in the next FPL season. The data storage and model development will use Google Cloud platform services.
 
 There are three components to this project:
 - Retrieving historical season stats for each currently-active player through the FPL API.
