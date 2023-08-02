@@ -50,5 +50,4 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
     hparams = args.__dict__
-
     model.train_and_evaluate(hparams)

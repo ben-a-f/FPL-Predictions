@@ -37,7 +37,7 @@ CSV_COLUMNS = [
 ]
 
 LABEL_COLUMN = "next_season_points"
-DEFAULTS = [[0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0]]
+DEFAULTS = ["", [0.0], "", [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0]]
 UNWANTED_COLS = ["hash_id", "element_code", "season_name"]
 
 INPUT_COLS = [
@@ -100,7 +100,6 @@ def build_dnn_model(nnsize, lr):
 
 
 def train_and_evaluate(hparams):
-    # TODO 1b
     batch_size = hparams["batch_size"]
     lr = hparams["lr"]
     nnsize = [int(s) for s in hparams["nnsize"].split()]
