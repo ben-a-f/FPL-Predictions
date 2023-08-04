@@ -1,0 +1,8 @@
+setup.py
+mid/__init__.py
+mid/model.py
+mid/task.py
+mid_trainer.egg-info/PKG-INFO
+mid_trainer.egg-info/SOURCES.txt
+mid_trainer.egg-info/dependency_links.txt
+mid_trainer.egg-info/top_level.txt

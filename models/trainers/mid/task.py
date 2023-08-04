@@ -3,7 +3,10 @@
 
 import argparse
 
-from trainer import model
+# For local
+# from . import model
+# For distribution
+from mid import model
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
