@@ -3,9 +3,6 @@
 
 import argparse
 
-# For local
-# from . import model
-# For distribution
 from mid import model
 
 if __name__ == "__main__":

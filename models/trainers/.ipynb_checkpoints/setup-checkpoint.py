@@ -3,9 +3,9 @@
 from setuptools import find_packages, setup
 
 setup(
-    name="mid-trainer",
+    name="mid_trainer",
     version="0.1",
-    packages=['mid'],
+    packages=["mid"],
     include_package_data=True,
     description="Midfielder model training application.",
 )
