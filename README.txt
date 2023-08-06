@@ -5,7 +5,7 @@ The aim is to create a neural network model that predicts the total points a pla
 
 There are three components to this project:
 - Retrieving historical season stats for each currently-active player through the FPL API.
-- Developing a neural network model (keras) to predict the points earnt in the next season using the previous season's data, and training it on the Vertex AI platform.
+- Developing a DNN (keras) to predict the points earnt in the next season using the previous season's data, and training it on the Vertex AI platform.
 - A linear optimisation solution to choose the highest-scoring team within the parameters of FPL (budget, team composition etc.).
 
 Current progress:
